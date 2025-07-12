@@ -1,6 +1,10 @@
 # Buttplug_AHK
 
-Control Buttplug.io compatible devices using AutoHotkey. This project uses a Python-based web server to act as a bridge between AutoHotkey and Intiface Central, allowing for global hotkey control over your device's vibration level.
+Control Buttplug.io compatible vibration devices using AutoHotkey. This project uses a Python-based web server to act as a bridge between AutoHotkey and Intiface Central, allowing for global hotkey control over your device's vibration level.
+
+##Important Note:
+
+This has only been tested on one device (the one I own) and only for the function of vibration. IF you have a device with other functions, I won't be able to help you with that. However, I encourage anyone to use this as an example to improve and expand upon the concept. 
 
 ## Features
 
@@ -28,11 +32,11 @@ pip install "uvicorn[standard]" buttplug-py fastapi
 
 ### 2. Download Project Files
 
-Download the `vibe_server1.py` and `vibe_hotkey2.ahk` files from this repository and place them **in the same folder** on your computer.
+Download the `vibe_server1.py` and `vibe_hotkey2.ahk` files from this repository and place them **in a folder together** on your computer.
 
 ### 3. Run the Project
 
-1.  Start **Intiface Central** and ensure your device is connected and scanning.
+1.  Start **Intiface Central** and ensure your device is connected and functioning.
 2.  Navigate to the folder where you saved the project files.
 3.  Double-click **`vibe_hotkey2.ahk`**.
 
