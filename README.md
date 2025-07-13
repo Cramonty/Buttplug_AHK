@@ -1,10 +1,12 @@
 # Buttplug_AHK
 
-Control Buttplug.io compatible vibration devices using AutoHotkey. This project uses a Python-based web server to act as a bridge between AutoHotkey and Intiface Central, allowing for global hotkey control over your device's vibration level.
+Use these scripts to control **[Buttplug.io](https://Buttplug.io)** compatible vibration devices using AutoHotkey. This project uses a Python-based web server to act as a bridge between AutoHotkey and Intiface Central, allowing for global hotkey control over your device's vibration level.
 
-##Important Note:
+## Important Note:
 
-This has only been tested on one device (the one I own) and only for the function of vibration. IF you have a device with other functions, I won't be able to help you with that. However, I encourage anyone to use this as an example to improve and expand upon the concept. 
+**This has only been tested on one device (the one I own) and *only for the function of vibration*. IF you have a device with other functions, I won't be able to help you with that. However, I encourage anyone to use this code as an example to improve and expand upon.** 
+
+***Code was written with AI assistance.***
 
 ## Features
 
@@ -37,8 +39,8 @@ Download the `vibe_server1.py` and `vibe_hotkey2.ahk` files from this repository
 ### 3. Run the Project
 
 1.  Start **Intiface Central** and ensure your device is connected and functioning.
-2.  Navigate to the folder where you saved the project files.
-3.  Double-click **`vibe_hotkey2.ahk`**.
+2.  Navigate to the folder where you saved the two project files.
+3.  Double-click **`vibe_hotkey2.ahk`** to run the AHK script.
 
 A message box will appear confirming the script and server are running. You can now use the numpad keys to control your device.
 
