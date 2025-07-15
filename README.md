@@ -11,7 +11,7 @@ Use these scripts to control **[Buttplug.io](https://Buttplug.io)** compatible v
 ## Features
 
 *   **Global Hotkeys:** Use your keyboard's numpad to instantly set vibration levels, even when you are in another application.
-*   **Simple Startup:** Just run one script (`vibe_hotkey2.ahk`) to automatically start both the server and the hotkey listener.
+*   **Simple Startup:** Just run one script (`vibe_hotkey.ahk`) to automatically start both the server and the hotkey listener.
 *   **Automatic Shutdown:** Closing the AHK script also automatically terminates the background server process, leaving no cleanup needed.
 
 ## Requirements
@@ -34,13 +34,13 @@ pip install "uvicorn[standard]" buttplug-py fastapi
 
 ### 2. Download Project Files
 
-Download the `vibe_server1.py` and `vibe_hotkey2.ahk` files from this repository and place them **in a folder together** on your computer.
+Download the `vibe_server1.py` and `vibe_hotkey.ahk` files from this repository and place them **in a folder together** on your computer.
 
 ### 3. Run the Project
 
 1.  Start **Intiface Central** and ensure your device is connected and functioning.
 2.  Navigate to the folder where you saved the two project files.
-3.  Double-click **`vibe_hotkey2.ahk`** to run the AHK script.
+3.  Double-click **`vibe_hotkey.ahk`** to run the AHK script.
 
 A message box will appear confirming the script and server are running. You can now use the numpad keys to control your device.
 
