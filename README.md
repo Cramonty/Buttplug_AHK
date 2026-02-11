@@ -18,7 +18,7 @@ Use these scripts to control **[Buttplug.io](https://Buttplug.io)** compatible v
 
 To run this project, you will need the following installed:
 
-1.  **[Intiface Central](https://intiface.com/central/)**: The application that manages the connection to your physical device.
+1.  **[Intiface Central v2.6.8.](https://intiface.com/central/)**: The application that manages the connection to your physical device. (NOTE: Version 3 will not work with this at present.)
 2.  **[Python (Version 3.10.0 Recommended)](https://www.python.org/downloads/release/python-3100/)**: The project was developed and tested using this version.
 3.  **[AutoHotkey (v1.1 or newer recommended)](https://www.autohotkey.com/)**: The scripting engine for the hotkeys.
 
@@ -38,7 +38,7 @@ Download the `vibe_server1.py` and `vibe_hotkey.ahk` files from this repository 
 
 ### 3. Run the Project
 
-1.  Start **Intiface Central** and ensure your device is connected and functioning.
+1.  Start **Intiface Central v2.6.8** and ensure your device is connected and functioning.
 2.  Navigate to the folder where you saved the two project files.
 3.  Double-click **`vibe_hotkey.ahk`** to run the AHK script.
 
